@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+
+  <main>
+    <div class="top-section">
+
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required. </p>
+      
+    </div>
+    <div class="card-component">
+
+
+      <div class="page-price">
+        <p class="page-views"><span id="views">50K</span> Pageviews</p>
+        <div class="slider-layout">
+          <input type="range" min="1" max="5" value="2" class="slider" id="myRange"  >
+          <div class="slider-fill"></div>
+        </div>
+        <p><span id="price">12</span> $ /month</p>
+        
+        </div>
+        
+        
+        
+        
+
+                 <!-- THE TOGGLE BUTTON AND BILLING SECTION OF THE CARD COMPONENT -->
+
+        <div class="toggle-billing">
+          <p>Monthly Billing</p>
+          <div class="toggle__btn" id="toggle-btn">
+            <span class="toggle__btn--switch"></span>
+          </div>
+          <p>Yearly Billing <span>25% discount</span></p>
+          
+        </div>
+                    <!-- THE BOTTOM SECTION OF THE CARD COMPONENT -->
+
+      <div class="bottom-card">
+        <ul class="perks">
+          <li class="perks-item1"><img src="images/icon-check.svg" alt="" class="check"> Unlimited websites</li>
+          <li class="perks-item"><img src="images/icon-check.svg" alt="" class="check"> 100% data ownership</li>
+          <li class="perks-item"><img src="images/icon-check.svg" alt="" class="check"> Email reports</li>
+         
+        </ul>
+        <button class="start">Start my trial</button>
+      </div>
+      </div>
+      
+
+      
+    </div>
+  </main>
+  
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Georgi Pavlov</a>.
+  </div>
+</body>
+</html>
